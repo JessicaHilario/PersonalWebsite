@@ -7,7 +7,6 @@ router.get('/', function(req, res, next) {
     var query = require('url').parse(req.url, true).query;
     var buffer ="";
     res.render('index', { title:title, data:buffer});
-
 });
 
 
